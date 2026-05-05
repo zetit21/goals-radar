@@ -90,9 +90,3 @@ st.subheader("📊 League Comparison Table")
 st.dataframe(df.style.highlight_max(subset=['GPG', 'Over_2_5_Rate'], color='#2E7D32'), use_container_width=True)
 
 st.caption("หมายเหตุ: ข้อมูลนี้จัดทำขึ้นเพื่อการวิเคราะห์สถิติเชิงปริมาณ (Quantitative Analysis) เท่านั้น")
-    st.write("**ทีมแนะนำ:** Bayern Munich, RB Leipzig")
-elif selected_league == "Norway Eliteserien":
-    st.warning("☀️ **ปัจจัยบุกแหลก:** เป็นช่วงต้นฤดูกาล ทีมยังฟิตและเน้นเกมบุกเพื่อสร้าง Momentum")
-    st.write("**ทีมแนะนำ:** Bodo/Glimt, Molde")
-else:
-    st.write("ตรวจสอบสถิติเชิงลึกได้เร็วๆ นี้...")
